@@ -24,6 +24,7 @@ public class stepDefinition {
 	    @Then("^Home page is populated$")
 	    public void home_page_is_populated() throws Throwable {
 	       System.out.println("home page displayed");
+	       System.out.println("home page displayed1");
 	    }
 
 	    @And("^Cards displayed are \"([^\"]*)\"$")
